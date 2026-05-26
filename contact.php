@@ -37,7 +37,7 @@
           <div class="text text-center">
             <h1 class="page-title text-white pb-20">Contact Us</h1>
             <ul class="list-unstyled bread-crumb d-flex justify-content-center">
-              <li><a href="index">Home</a></li>
+              <li><a href="./index.php">Home</a></li>
               <li>Contact Us</li>
             </ul>
           </div>
