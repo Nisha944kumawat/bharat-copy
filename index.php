@@ -1147,7 +1147,7 @@ Established in 1995, Bharat Copy Udyog is a trusted notebook and stationery
               <div class="item item-one hover-effect">
                 <div class="image position-relative">
                   <div class="rounded-20 overlay-shape overflow-hidden reveal up">
-                    <img src="assets/img/Banner/sliderimg1.png" class="img-fluid rounded-20 w-100" alt="faq">
+                    <img src="assets/img/banner/sliderimg1.png" class="img-fluid rounded-20 w-100" alt="faq">
                   </div>
                   <div class="text text-center rounded-10 position-absolute">
                     <h2 class="heading-two text-white">

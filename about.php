@@ -52,7 +52,7 @@
           <div class="col-xl-6 col-lg-9 mx-auto">
             <div class="about-img position-relative">
               <div class="img reveal zoom-out rounded-20 overlay-shape overflow-hidden">
-                <img src="assets/img/gallery/19.png" class="rounded-20 img-fluid w-100" alt="about01">
+                <img src="assets/img/Gallery/19.png" class="rounded-20 img-fluid w-100" alt="about01">
               </div>
               <div class="shape position-absolute">
                 <img src="assets/img/about/shape01.svg" alt="shape01">
