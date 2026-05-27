@@ -236,6 +236,7 @@ MOBILE RESPONSIVE HEADER START
 ========================= -->
 
 <!-- MOBILE HEADER -->
+<!-- MOBILE HEADER -->
 
 <div class="d-block d-xl-none"
 
@@ -308,6 +309,7 @@ box-shadow:0 2px 10px rgba(0,0,0,0.08);
         justify-content:center;
         font-size:16px;
         flex-shrink:0;
+        cursor:pointer;
         ">
 
             <i class="fas fa-bars"></i>
@@ -375,6 +377,7 @@ padding:20px;
         font-size:34px;
         line-height:1;
         color:#000;
+        cursor:pointer;
         ">
 
             ×
@@ -399,7 +402,7 @@ padding:20px;
 
             <a
 
-            href="index"
+            href="./index.php"
 
             class="mobileLink"
 
@@ -410,6 +413,7 @@ padding:20px;
             color:#000;
             font-size:17px;
             font-weight:600;
+            width:100%;
             ">
 
                 Home
@@ -424,7 +428,7 @@ padding:20px;
 
             <a
 
-            href="about"
+            href="./about.php"
 
             class="mobileLink"
 
@@ -435,6 +439,7 @@ padding:20px;
             color:#000;
             font-size:17px;
             font-weight:600;
+            width:100%;
             ">
 
                 About Us
@@ -447,24 +452,161 @@ padding:20px;
 
         <li style="border-bottom:1px solid #eee;">
 
-            <a
-
-            href="services"
-
-            class="mobileLink"
+            <div
 
             style="
-            display:block;
-            padding:15px 0;
-            text-decoration:none;
-            color:#000;
-            font-size:17px;
-            font-weight:600;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
             ">
 
-                Products
+                <a
 
-            </a>
+                href="./services.php"
+
+                class="mobileLink"
+
+                style="
+                display:block;
+                padding:15px 0;
+                text-decoration:none;
+                color:#000;
+                font-size:17px;
+                font-weight:600;
+                width:100%;
+                ">
+
+                    Our Brands
+
+                </a>
+
+                <button
+
+                id="brandToggle"
+
+                style="
+                border:none;
+                background:none;
+                font-size:18px;
+                color:#000;
+                cursor:pointer;
+                padding-left:10px;
+                ">
+
+                    >
+
+                </button>
+
+            </div>
+
+            <ul
+
+            id="brandSubmenu"
+
+            style="
+            list-style:none;
+            padding-left:15px;
+            margin-bottom:10px;
+            display:none;
+            ">
+
+                <li>
+
+                    <a
+
+                    href="./hawamahal.php"
+
+                    class="mobileLink"
+
+                    style="
+                    display:block;
+                    padding:10px 0;
+                    text-decoration:none;
+                    color:#000;
+                    font-size:15px;
+                    font-weight:500;
+                    width:100%;
+                    ">
+
+                        Hawamahal
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a
+
+                    href="./tiago.php"
+
+                    class="mobileLink"
+
+                    style="
+                    display:block;
+                    padding:10px 0;
+                    text-decoration:none;
+                    color:#000;
+                    font-size:15px;
+                    font-weight:500;
+                    width:100%;
+                    ">
+
+                        Tiago
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a
+
+                    href="./yuvraj.php"
+
+                    class="mobileLink"
+
+                    style="
+                    display:block;
+                    padding:10px 0;
+                    text-decoration:none;
+                    color:#000;
+                    font-size:15px;
+                    font-weight:500;
+                    width:100%;
+                    ">
+
+                        Yuvraj
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a
+
+                    href="./negi.php"
+
+                    class="mobileLink"
+
+                    style="
+                    display:block;
+                    padding:10px 0;
+                    text-decoration:none;
+                    color:#000;
+                    font-size:15px;
+                    font-weight:500;
+                    width:100%;
+                    ">
+
+                        Negi
+
+                    </a>
+
+                </li>
+
+            </ul>
 
         </li>
 
@@ -474,7 +616,7 @@ padding:20px;
 
             <a
 
-            href="gallary"
+            href="./gallary.php"
 
             class="mobileLink"
 
@@ -485,6 +627,7 @@ padding:20px;
             color:#000;
             font-size:17px;
             font-weight:600;
+            width:100%;
             ">
 
                 Gallery
@@ -499,7 +642,7 @@ padding:20px;
 
             <a
 
-            href="contact"
+            href="./contact.php"
 
             class="mobileLink"
 
@@ -510,6 +653,7 @@ padding:20px;
             color:#000;
             font-size:17px;
             font-weight:600;
+            width:100%;
             ">
 
                 Contact
@@ -542,12 +686,16 @@ padding:20px;
 
         <!-- PHONE -->
 
-        <div
+        <a
+
+        href="tel:<?php echo $mobilenumber1; ?>"
 
         style="
         display:flex;
         gap:12px;
         margin-bottom:20px;
+        text-decoration:none;
+        color:#000;
         ">
 
             <div
@@ -580,18 +728,22 @@ padding:20px;
 
             </div>
 
-        </div>
+        </a>
 
 
 
         <!-- EMAIL -->
 
-        <div
+        <a
+
+        href="mailto:<?php echo $emailaddress; ?>"
 
         style="
         display:flex;
         gap:12px;
         margin-bottom:20px;
+        text-decoration:none;
+        color:#000;
         ">
 
             <div
@@ -624,18 +776,24 @@ padding:20px;
 
             </div>
 
-        </div>
+        </a>
 
 
 
         <!-- LOCATION -->
 
-        <div
+        <a
+
+        href="<?php echo $addresslink; ?>"
+
+        target="_blank"
 
         style="
         display:flex;
         gap:12px;
         margin-bottom:25px;
+        text-decoration:none;
+        color:#000;
         ">
 
             <div
@@ -668,7 +826,7 @@ padding:20px;
 
             </div>
 
-        </div>
+        </a>
 
     </div>
 
@@ -687,6 +845,8 @@ padding:20px;
         <a
 
         href="https://www.facebook.com/profile.php?id=100064167338334"
+
+        target="_blank"
 
         style="
         width:42px;
@@ -710,6 +870,8 @@ padding:20px;
 
         href="https://www.instagram.com/bharatcopyudhyog2?igsh=MXJ3cjV5NWNvdnNjMQ=="
 
+        target="_blank"
+
         style="
         width:42px;
         height:42px;
@@ -731,6 +893,8 @@ padding:20px;
         <a
 
         href="https://www.youtube.com/@bharatcopy6850"
+
+        target="_blank"
 
         style="
         width:42px;
@@ -792,6 +956,29 @@ document.getElementById("closeMobileMenu")
 
 
 
+/* BRAND TOGGLE */
+
+document.getElementById("brandToggle")
+.onclick = function(){
+
+    let submenu = document.getElementById("brandSubmenu");
+
+    if(submenu.style.display === "block"){
+
+        submenu.style.display = "none";
+        this.innerHTML = ">";
+
+    } else {
+
+        submenu.style.display = "block";
+        this.innerHTML = "^";
+
+    }
+
+};
+
+
+
 /* AUTO CLOSE */
 
 document.querySelectorAll(".mobileLink")
@@ -807,7 +994,6 @@ document.querySelectorAll(".mobileLink")
 });
 
 </script>
-
 <!-- =========================
 MOBILE RESPONSIVE HEADER END
 ========================= -->
