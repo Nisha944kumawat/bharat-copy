@@ -72,6 +72,7 @@
         <!-- LEFT CONTACT FORM -->
         <div class="col-lg-6 d-flex">
           <div class="tranzit-contact-form style3 custom rounded-20 me-0 w-100">
+
             <form id="contactForm">
               <div class="row g-4">
 
@@ -246,6 +247,33 @@
     </div>
   </div>
 </section>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let name = document.querySelector('[name="form_name"]').value;
+    let email = document.querySelector('[name="form_email"]').value;
+    let phone = document.querySelector('[name="form_phone"]').value;
+    let address = document.querySelector('[name="form_address"]').value;
+    let message = document.querySelector('[name="form_message"]').value;
+
+    let whatsappNumber = "919351022500"; // Apna WhatsApp Number yaha daalein
+
+    let text =
+`*New Contact Form Message*
+
+*Name:* ${name}
+*Email:* ${email}
+*Phone:* ${phone}
+*Address:* ${address}
+*Message:* ${message}`;
+
+    let url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+
+    window.open(url, "_blank");
+});
+</script>
     <!-- Contact us section end -->
 
     <div id="output"></div>
