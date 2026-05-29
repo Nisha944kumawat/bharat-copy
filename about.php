@@ -774,16 +774,42 @@
 
 
 
-<section aria-labelledby="clients-heading" class="max-w-7xl" style="padding: 0;">
-  <h2
-    class="clients-heading text-center"
-    id="clients-heading"
-    style="font-size:2rem;font-weight:700;margin-top:2rem;margin-bottom:3.5rem;"
-  >
-    Trusted by Leading Clients
-  </h2>
+<!---- Clients section start -->
+<section aria-labelledby="clients-heading" class="max-w-7xl"   style="
+      padding: 60px 20px;
+      margin-top: 60px;
+      background: #f8f9fc;
+      border-radius: 20px;">
+
+     <div class="row">
+      <div class="section-title text-center pb-20">
+        <h6 class="subtitle d-inline-flex align-items-center">Our Clients
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.3171 1.10946e-05L19.3136 8.18934L11.3171 16.3787L3.32062 16.3787L11.3171 8.18934L3.32062 1.14441e-05L11.3171 1.10946e-05Z"
+                fill="currentColor" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0.686401 16.3787L0.686401 8.18934L0.686401 1.14441e-05L4.68376 4.09467L8.68199 8.18934L4.68376 12.284L0.686401 16.3787Z"
+                fill="currentColor" />
+            </svg>
+          </span>
+        </h6>
+      </div> 
+      </div>
+
+    <h2 style="
+  text-align:center;
+  font-size:2.2rem;
+  font-weight:700;
+  color:#1a1a1a;
+  margin-bottom:1rem;
+   ">
+  Trusted by Leading Schools & Institutions
+   </h2>
+
   <p style="max-width:900px;margin:0 auto 2.5rem auto;text-align:center;font-size:1rem;line-height:1.8;color:#555;">
-  Over the years, Bharat Copy Udyog has earned the trust of numerous reputed schools, educational institutions, and organizations through its consistent quality, timely delivery, and durable stationery products. Our notebooks, files, registers, and customized stationery solutions are widely used by prestigious clients such as Kendriya Vidyalaya, Supreme Foundation, Sanjivani School, DAV School, Tagore Public School, Sarvodaya Kanya Vidyalaya, Swami Narayan School, and SSGITS, reflecting our commitment to excellence and long-term client satisfaction.
+  Over the years, <b style="color: #000; font-weight: 700;">Bharat Copy Udyog</b> has earned the trust of numerous reputed schools, educational institutions, and organizations through its consistent quality, timely delivery, and durable stationery products. Our notebooks, files, registers, and customized stationery solutions are widely used by prestigious clients such as Kendriya Vidyalaya, Supreme Foundation, Sanjivani School, DAV School, Tagore Public School, Sarvodaya Kanya Vidyalaya, Swami Narayan School, and SSGITS, reflecting our commitment to excellence and long-term client satisfaction.
    </p>
   <div
     class="overflow-hidden"
@@ -882,6 +908,7 @@
     })();
   </script>
 </section>
+<!-- Clients section end -->
 
 
 

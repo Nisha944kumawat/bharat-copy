@@ -25,6 +25,104 @@
 .ep-footer-section .row.g-3 {
     margin-top: 5px;
 }
+/* Desktop me upar niche */
+/* Certified logos section */
+.iso-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Logo size */
+.iso-image img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px){
+
+
+    /* Mobile me dono logos side by side */
+    .iso-image{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    /* Thoda small logo mobile me */
+    .iso-image img{
+        width: 65px;
+        height: 65px;
+    }
+}
+@media (max-width: 767px){
+
+    /* Services + Brands same row me */
+    .footer-main .row.g-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Services */
+    .footer-main .row.g-2 > div:nth-child(3){
+        width: 50%;
+        max-width: 50%;
+    }
+
+    /* Our Brands */
+    .footer-main .row.g-2 > div:nth-child(4){
+        width: 50%;
+        max-width: 50%;
+    }
+
+    /* Contact Information niche full width */
+    .footer-main .row.g-2 > div:nth-child(5){
+        width: 100%;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 767px){
+
+    /* Footer bottom responsive */
+    .footer-bottom{
+        padding-bottom: 15px !important;
+    }
+
+    /* Copyright text */
+    .footer-copyright p{
+        white-space: normal !important;
+        text-align: center;
+        line-height: 1.5 !important;
+        font-size: 0.75rem !important;
+    }
+
+    /* Footer menu */
+    .footer-menu ul{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 8px !important;
+        white-space: normal !important;
+        margin-top: 10px;
+    }
+
+    .footer-menu ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-menu ul li a{
+        white-space: normal !important;
+        display: inline-block;
+        font-size: 0.75rem;
+    }
+}
 </style>
 <!-- Footer section start -->
 <footer class="ep-footer-section custom" style="padding-top: 10px; padding-bottom: 8px;">
@@ -66,34 +164,62 @@
               </p>
               </div>
             </div>
-          </div>        
+          </div>  
+          
+<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12" style="min-height: auto;">
+  <div class="footer-widget text-center text-lg-center" style="padding-bottom: 0;">
+    
+    <h4 class="footer-widget-title heading-four text-white mb-3" 
+        style="font-size: clamp(1rem, 2.5vw, 1.1rem);">
+      Certified By
+    </h4>
+
+    <div class="iso-image">
+      
+      <img src="assets/img/logo/logoiso.png" alt="Certificate 1"
+        style="width: 80px; height: 80px; object-fit: contain;">
+
+      <img src="assets/img/logo/logogrc.png" alt="Certificate 2"
+        style="width: 80px; height: 80px; object-fit: contain;">
+
+    </div>
+
+  </div>
+</div>
+
           <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12" style="min-height: auto;">
             <div class="footer-widget" style="padding-bottom: 0;">
-              <h4 class="footer-widget-title heading-four text-white mb-2" style="font-size: clamp(1rem, 2.5vw, 1.1rem);">Services</h4>
+              <h4 class="footer-widget-title heading-four text-white mb-2" style="font-size: clamp(1rem, 2.5vw, 1.1rem);">Pages</h4>
               <ul class="list-unstyled important-link">
                 <li class="mb-1">
                   <div class="icon d-inline-block me-2">
                     <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
                   </div>
-                  <a href="acsr-conductors" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Home</a>
+                  <a href="./index.php" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Home</a>
                 </li>
                 <li class="mb-1">
                   <div class="icon d-inline-block me-2">
                     <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
                   </div>
-                  <a href="bare-conductors" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">About Us</a>
+                  <a href="./about.php" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">About Us</a>
                 </li>
                 <li class="mb-1">
                   <div class="icon d-inline-block me-2">
                     <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
                   </div>
-                  <a href="dc-solar-cables" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Gallery</a>
+                  <a href="./gallary.php" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Gallery</a>
                 </li>
                 <li class="mb-1">
                   <div class="icon d-inline-block me-2">
                     <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
                   </div>
-                  <a href="shielded-cables" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Contact Us</a>
+                  <a href="./shop.php" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Shop Now</a>
+                </li>
+                <li class="mb-1">
+                  <div class="icon d-inline-block me-2">
+                    <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
+                  </div>
+                  <a href="./contact.php" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -101,31 +227,37 @@
 
             <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12" style="min-height: auto;">
             <div class="footer-widget" style="padding-bottom: 0;">
-              <h4 class="footer-widget-title heading-four text-white mb-2" style="font-size: clamp(1rem, 2.5vw, 1.1rem);">Our Brands</h4>
+              <h4 class="footer-widget-title heading-four text-white mb-2" style="font-size: clamp(1rem, 2.5vw, 1.1rem);">Services</h4>
               <ul class="list-unstyled important-link">
                 <li class="mb-1">
                   <div class="icon d-inline-block me-2">
                     <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
                   </div>
-                  <a href="acsr-conductors" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Tiago</a>
+                  <a href="#" onclick="return false;" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Wholesale</a>
                 </li>
                 <li class="mb-1">
                   <div class="icon d-inline-block me-2">
                     <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
                   </div>
-                  <a href="bare-conductors" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Hawamahal</a>
+                  <a href="#" onclick="return false;" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Customization</a>
                 </li>
                 <li class="mb-1">
                   <div class="icon d-inline-block me-2">
                     <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
                   </div>
-                  <a href="dc-solar-cables" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Yuvraj</a>
+                  <a href="#" onclick="return false;" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Bulk Supply</a>
                 </li>
                 <li class="mb-1">
                   <div class="icon d-inline-block me-2">
                     <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
                   </div>
-                  <a href="shielded-cables" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Negi</a>
+                  <a href="#" onclick="return false;" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Fast Delivery</a>
+                </li>
+                <li class="mb-1">
+                  <div class="icon d-inline-block me-2">
+                    <img src="assets/img/footer/point.png" alt="point" style="width: 8px;">
+                  </div>
+                  <a href="#" onclick="return false;" style="font-size: clamp(0.8rem, 2vw, 0.9rem);">Assured Quality</a>
                 </li>
               </ul>
             </div>
@@ -157,46 +289,12 @@
             </div>
           </div>
 
-<div class="col-xl-2 col-lg-6 col-md-6 col-sm-12" style="min-height: auto;">
-  <div class="footer-widget text-center text-lg-start" style="padding-bottom: 0;">
-    
-    <h4 class="footer-widget-title heading-four text-white mb-3" 
-        style="font-size: clamp(1rem, 2.5vw, 1.1rem);">
-      Our Certificates
-    </h4>
-
-    <div class="iso-image d-grid justify-content-center justify-content-lg-start"
-     style="grid-template-columns: repeat(3, 1fr); gap: 4px; max-width: 260px;">
-      
-      <img src="assets/img/logo/dem.jpeg" alt="Certificate 1"
-        style="width: 80px; height: 80px; object-fit: contain;">
-
-      <img src="assets/img/logo/gov1.png" alt="Certificate 2"
-        style="width: 80px; height: 80px; object-fit: contain;">
-
-      <img src="assets/img/logo/gov2.png" alt="Certificate 3"
-        style="width: 80px; height: 80px; object-fit: contain;">
-
-      <img src="assets/img/logo/iaf.jpeg" alt="Certificate 4"
-        style="width: 80px; height: 80px; object-fit: contain;">
-
-      <img src="assets/img/logo/negi.jpeg" alt="Certificate 5"
-        style="width: 80px; height: 80px; object-fit: contain;">
-
-      <img src="assets/img/logo/tiago.jpeg" alt="Certificate 6"
-        style="width: 80px; height: 80px; object-fit: contain;">
-
-    </div>
-
-  </div>
-</div>
-
         </div>
       </div>
     </div>
     <div class="footer-bottom" style="padding-top: 10px; margin-top: 5px; padding-bottom: 5px; border-top: 1px solid rgba(255,255,255,0.1);">
   <div class="container">
-    <div class="row g-2 align-items-center">
+<div class="row g-2 align-items-center">
 
       <!-- Left Side -->
       <div class="col-lg-8 col-md-7 col-12">
@@ -232,19 +330,19 @@
               ">
 
             <li>
-              <a href="#" style="white-space: nowrap; text-decoration: none;">
+              <a href="./TermsConditions.php" style="white-space: nowrap; text-decoration: none;">
                 Terms & Condition
               </a>
             </li>
 
             <li>
-              <a href="#" style="white-space: nowrap; text-decoration: none;">
+              <a href="./PrivacyPolicy.php" style="white-space: nowrap; text-decoration: none;">
                 Privacy Policy
               </a>
             </li>
 
             <li>
-              <a href="#" style="white-space: nowrap; text-decoration: none;">
+              <a href="./CancellationRefundsPolicy.php" style="white-space: nowrap; text-decoration: none;">
                 Cancellation & Refunds Policy
               </a>
             </li>

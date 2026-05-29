@@ -35,10 +35,10 @@
       <div class="overlay bg-control" data-background="assets/img/bg/pageheaderbg.png">
         <div class="container">
           <div class="text text-center">
-            <h1 class="page-title text-white pb-20">Gallary</h1>
+            <h1 class="page-title text-white pb-20">Gallery</h1>
             <ul class="list-unstyled bread-crumb d-flex justify-content-center">
               <li><a href="./index.php">Home</a></li>
-              <li>Gallary</li>
+              <li>Gallery</li>
             </ul>
           </div>
         </div>

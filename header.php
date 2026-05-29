@@ -109,23 +109,9 @@ z-index:999;
               <a class="nav-link" href="./about.php"> About Us </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./services.php">
-                Our Brands <i class="fas fa-chevron-down"></i>
+              <a class="nav-link" href="./shop.php">
+                Shop Now
               </a>
-              <ul style="width: 229px;left: -59px;" class="sub-menu custom list-unstyled" >
-    <li>
-      <a href="./hawamahal.php" class="custom">Hawamahal </a>
-    </li>
-    <li>
-      <a href="./tiago.php" class="custom">Tiago</a>
-    </li>
-    <li>
-      <a href="./yuvraj.php" class="custom">Yuvraj</a>
-    </li>
-    <li>
-      <a href="./negi.php" class="custom">Negi</a>
-    </li>
-  </ul>
             </li>
         
              <li class="nav-item">
@@ -451,18 +437,9 @@ padding:20px;
 
 
         <li style="border-bottom:1px solid #eee;">
-
-            <div
-
-            style="
-            display:flex;
-            align-items:center;
-            justify-content:space-between;
-            ">
-
                 <a
 
-                href="./services.php"
+                href="./shop.php"
 
                 class="mobileLink"
 
@@ -476,137 +453,10 @@ padding:20px;
                 width:100%;
                 ">
 
-                    Our Brands
+                    Shop Now
 
                 </a>
 
-                <button
-
-                id="brandToggle"
-
-                style="
-                border:none;
-                background:none;
-                font-size:18px;
-                color:#000;
-                cursor:pointer;
-                padding-left:10px;
-                ">
-
-                    >
-
-                </button>
-
-            </div>
-
-            <ul
-
-            id="brandSubmenu"
-
-            style="
-            list-style:none;
-            padding-left:15px;
-            margin-bottom:10px;
-            display:none;
-            ">
-
-                <li>
-
-                    <a
-
-                    href="./hawamahal.php"
-
-                    class="mobileLink"
-
-                    style="
-                    display:block;
-                    padding:10px 0;
-                    text-decoration:none;
-                    color:#000;
-                    font-size:15px;
-                    font-weight:500;
-                    width:100%;
-                    ">
-
-                        Hawamahal
-
-                    </a>
-
-                </li>
-
-                <li>
-
-                    <a
-
-                    href="./tiago.php"
-
-                    class="mobileLink"
-
-                    style="
-                    display:block;
-                    padding:10px 0;
-                    text-decoration:none;
-                    color:#000;
-                    font-size:15px;
-                    font-weight:500;
-                    width:100%;
-                    ">
-
-                        Tiago
-
-                    </a>
-
-                </li>
-
-                <li>
-
-                    <a
-
-                    href="./yuvraj.php"
-
-                    class="mobileLink"
-
-                    style="
-                    display:block;
-                    padding:10px 0;
-                    text-decoration:none;
-                    color:#000;
-                    font-size:15px;
-                    font-weight:500;
-                    width:100%;
-                    ">
-
-                        Yuvraj
-
-                    </a>
-
-                </li>
-
-                <li>
-
-                    <a
-
-                    href="./negi.php"
-
-                    class="mobileLink"
-
-                    style="
-                    display:block;
-                    padding:10px 0;
-                    text-decoration:none;
-                    color:#000;
-                    font-size:15px;
-                    font-weight:500;
-                    width:100%;
-                    ">
-
-                        Negi
-
-                    </a>
-
-                </li>
-
-            </ul>
 
         </li>
 
@@ -954,28 +804,6 @@ document.getElementById("closeMobileMenu")
 
 };
 
-
-
-/* BRAND TOGGLE */
-
-document.getElementById("brandToggle")
-.onclick = function(){
-
-    let submenu = document.getElementById("brandSubmenu");
-
-    if(submenu.style.display === "block"){
-
-        submenu.style.display = "none";
-        this.innerHTML = ">";
-
-    } else {
-
-        submenu.style.display = "block";
-        this.innerHTML = "^";
-
-    }
-
-};
 
 
 

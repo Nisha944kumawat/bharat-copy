@@ -80,8 +80,7 @@
                                                         margin-bottom:12px;
                                                         font-size:15px;
                                                     ">
-
-                                                    A Product of Bharat Copy Udyog
+                                                    Welcome To Bharat Copy
 
                                                     <span class="icon ms-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -107,15 +106,26 @@
 
                                                 <h1 class="heading-one split-text right text-white"
                                                     style="
-                                                        font-size:58px;
+                                                        font-size:48px;
                                                         line-height:1.08;
                                                         margin-bottom:12px;
                                                     ">
 
-                                                    Crafting Quality Notebooks
-                                                    for Every Page
+                                                    Trusted Manufacturer of Exam Copies, Files & Spiral Notebooks in India
+
 
                                                 </h1>
+                                                <p class="heading-one text-white-50"
+                                                    style="
+                                                        font-size:16px;
+                                                        line-height:1.5;
+                                                        margin-bottom:20px;
+                                                    ">
+
+                                                   With 31 years of manufacturing excellence, Bharat Copy Udhyog delivers premium-quality exam copies, notebooks, spiral notebooks, files, bill books, 
+                                                   and stationery products from its advanced manufacturing unit in Jaipur.
+
+                                                </p>
 
                                             </div>
 
@@ -198,7 +208,7 @@
                                                         font-size:15px;
                                                     ">
 
-                                                    Welcome To Bharat Copy
+                                                    A Product of Bharat Copy Udyog
 
                                                     <span class="icon ms-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -224,14 +234,25 @@
 
                                                 <h1 class="heading-one text-white"
                                                     style="
-                                                        font-size:58px;
+                                                        font-size:48px;
                                                         line-height:1.08;
                                                         margin-bottom:12px;
                                                     ">
 
-                                                    Trusted Notebook Manufacturing Excellence
+                                                    Private Label Notebook & Exam Copy Printing for Schools, Colleges & Universities
 
                                                 </h1>
+                                                <p class="heading-one text-white-50"
+                                                    style="
+                                                        font-size:16px;
+                                                        line-height:1.5;
+                                                        margin-bottom:20px;
+                                                    ">
+
+                                                 We specialize in customized and private label notebook manufacturing with premium printing, branding, 
+                                                 and bulk production solutions tailored for educational institutions across India.
+
+                                                </p>
 
                                             </div>
 
@@ -340,15 +361,25 @@
 
                                                 <h1 class="heading-one text-white"
                                                     style="
-                                                        font-size:58px;
+                                                        font-size:48px;
                                                         line-height:1.08;
                                                         margin-bottom:12px;
                                                     ">
 
-                                                    Premium Paper, Strong Binding &
-                                                    Smooth Writing Experience
+                                                    India’s Largest Supplier of Notebooks, Exam Copies & Spiral Notebooks
 
                                                 </h1>
+                                                <p class="heading-one text-white-50"
+                                                    style="
+                                                        font-size:16px;
+                                                        line-height:1.5;
+                                                        margin-bottom:20px;
+                                                    ">
+
+                                                   Serving wholesalers, retailers, distributors, schools, and corporate clients with reliable bulk supply,
+                                                    superior quality stationery products, and timely nationwide delivery.
+
+                                                </p>
 
                                             </div>
 
@@ -420,7 +451,13 @@
 </section>
 
 <style>
+@media(max-width:575px){
 
+.ep-banner-section p{
+display:none !important;
+}
+
+}
 @media(max-width:991px){
 
 .ep-banner-section.style1{
@@ -509,11 +546,7 @@ max-height:240px !important;
                 </h2>
               </div>
               <p class="about-text ps-3">
-   Established in 1995, Bharat Copy Udyog is a trusted notebook and stationery
- manufacturer with over **31 years of industry experience. We specialize in
-  manufacturing a wide variety of notebooks and stationery products including 
-  **all-size notebooks,
- files, registers, spiral notebooks, and customized stationery solutions</p>
+             <b style="color: #000; font-weight: 700;">Bharat Copy Udhyog</b> is a Jaipur-based manufacturing company delivering premium exam copies, notebooks, spiral note books, office files, bill books, registers, and customized stationery products. Backed by years of expertise, cutting-edge machinery, and large-scale production capacity, we provide reliable stationery solutions for schools, wholesalers, retailers, and corporate clients.</p>
               <div class="tracking-info pb-30 mb-40">
                 <div class="row pt-40 gy-3">
                   <div class="col-xl-6 col-md-5 col-md-6 tracking d-flex align-items-center gap-3">
@@ -531,7 +564,7 @@ max-height:240px !important;
                 </div>
               </div>
               <div class="d-flex gap-5 align-items-center flex-wrap">
-                <a href="about" class="theme-btn style2 rounded-pill text-uppercase">Read More
+                <a href="./about.php" class="theme-btn style2 rounded-pill text-uppercase">Read More
                   <i class="fas fa-chevron-right"></i>
                 </a>
               </div>
@@ -542,7 +575,7 @@ max-height:240px !important;
     </section>
     <!-- About section end -->
      <!-- Counter section start -->
-<section class="ep-counter-section pt-120">
+<section class="ep-counter-section pt-120 pb-120">
       <div class="container">
         <div class="counter-body bg-two rounded-30 d-flex flex-wrap justify-content-between align-items-center">
           <div
@@ -588,8 +621,270 @@ max-height:240px !important;
         </div>
       </div>
 </section>
-    <!-- Counter section end -->
+<!-- Counter section end -->
+<!-- bulk order section start -->
+<section class="ep-why-choose-us-section-two content pt-5 custom-bulk-section">
+  <div class="container">
 
+    <!-- Heading -->
+    <div class="row">
+      <div class="section-title text-center pt-70 pb-20">
+
+        <h6 class="subtitle d-inline-flex align-items-center mb-2">
+          Customized Bulk Orders
+          <span class="icon ms-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.3171 1.10946e-05L19.3136 8.18934L11.3171 16.3787L3.32062 16.3787L11.3171 8.18934L3.32062 1.14441e-05L11.3171 1.10946e-05Z"
+                fill="currentColor" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0.686401 16.3787L0.686401 8.18934L0.686401 1.14441e-05L4.68376 4.09467L8.68199 8.18934L4.68376 12.284L0.686401 16.3787Z"
+                fill="currentColor" />
+            </svg>
+          </span>
+        </h6>
+
+        <h2 class="title heading-two split-text right mb-3">
+          Customized Stationery & Bulk Order Solutions
+        </h2>
+
+        <p class="custom-desc">
+          <strong>Bharat Copy Udyog</strong>, established in <strong>1995</strong>, is a trusted
+          manufacturer of premium stationery products with over <strong>31 years of experience</strong>.
+          We manufacture customized stationery products under brands like
+          <strong>Hawamahal, Tiago, Negi, and Yuvraj</strong>.
+
+          We manufacture <strong>exam copies, school notebooks, spiral notebooks, files, diaries,
+          rough notebooks, registers, practical copies, and custom stationery products</strong>
+          exactly as per your requirement with premium quality paper and strong binding.
+
+          Customers can place orders directly through <strong>Call or WhatsApp</strong>.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- Scrolling Cards -->
+    <div class="scroll-wrapper mt-2">
+
+      <div class="scroll-track">
+
+        <!-- CARD 1 -->
+        <div class="content-item d-flex align-items-center bg-white rounded-20 p-2 shadow-sm">
+          <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center me-3">
+            <img src="assets/img/about/2.png" width="60" alt="">
+          </div>
+
+          <div class="text">
+            <h4 class="heading-four title mb-1">
+              Customized Notebook Manufacturing
+            </h4>
+
+            <p class="mb-0">
+              Get notebooks, registers, files, diaries, and spiral notebooks manufactured
+              in your preferred size and paper quality.
+            </p>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="content-item d-flex align-items-center bg-white rounded-20 p-2 shadow-sm">
+          <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center me-3">
+            <img src="assets/img/about/1.png" width="60" alt="">
+          </div>
+
+          <div class="text">
+            <h4 class="heading-four title mb-1">
+              School & College Bulk Orders
+            </h4>
+
+            <p class="mb-0">
+              Customized exam copies, practical files, school notebooks,
+              and printed copies for institutions.
+            </p>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="content-item d-flex align-items-center bg-white rounded-20 p-2 shadow-sm">
+          <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center me-3">
+            <img src="assets/img/about/3.png" width="60" alt="">
+          </div>
+
+          <div class="text">
+            <h4 class="heading-four title mb-1">
+              Wholesale & Retail Supply
+            </h4>
+
+            <p class="mb-0">
+              Premium quality notebooks and stationery for wholesalers,
+              retailers, and businesses.
+            </p>
+          </div>
+        </div>
+
+        <!-- DUPLICATE START -->
+
+        <!-- CARD 1 DUPLICATE -->
+        <div class="content-item d-flex align-items-center bg-white rounded-20 p-2 shadow-sm">
+          <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center me-3">
+            <img src="assets/img/about/2.png" width="60" alt="">
+          </div>
+
+          <div class="text">
+            <h4 class="heading-four title mb-1">
+              Customized Notebook Manufacturing
+            </h4>
+
+            <p class="mb-0">
+              Get notebooks, registers, files, diaries, and spiral notebooks manufactured
+              in your preferred size and paper quality.
+            </p>
+          </div>
+        </div>
+
+        <!-- CARD 2 DUPLICATE -->
+        <div class="content-item d-flex align-items-center bg-white rounded-20 p-2 shadow-sm">
+          <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center me-3">
+            <img src="assets/img/about/1.png" width="60" alt="">
+          </div>
+
+          <div class="text">
+            <h4 class="heading-four title mb-1">
+              School & College Bulk Orders
+            </h4>
+
+            <p class="mb-0">
+              Customized exam copies, practical files, school notebooks,
+              and printed copies for institutions.
+            </p>
+          </div>
+        </div>
+
+        <!-- CARD 3 DUPLICATE -->
+        <div class="content-item d-flex align-items-center bg-white rounded-20 p-2 shadow-sm">
+          <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center me-3">
+            <img src="assets/img/about/3.png" width="60" alt="">
+          </div>
+
+          <div class="text">
+            <h4 class="heading-four title mb-1">
+              Wholesale & Retail Supply
+            </h4>
+
+            <p class="mb-0">
+              Premium quality notebooks and stationery for wholesalers,
+              retailers, and businesses.
+            </p>
+          </div>
+        </div>
+
+        <!-- DUPLICATE END -->
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+
+.custom-bulk-section{
+    background: #f5f7fb;
+    padding: 70px 0;
+}
+
+.custom-desc{
+    max-width: 950px;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.scroll-wrapper{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.scroll-track{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: infiniteScroll 25s linear infinite;
+}
+
+.scroll-track:hover{
+    animation-play-state: paused;
+}
+
+.scroll-track .content-item{
+    min-width: 360px;
+    max-width: 360px;
+    transition: 0.3s ease;
+}
+
+.scroll-track .content-item:hover{
+    transform: translateY(-5px);
+}
+
+.content-item p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.content-item h4{
+    font-size: 18px;
+}
+
+/* INFINITE SMOOTH SCROLL */
+@keyframes infiniteScroll{
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(calc(-360px * 3 - 60px));
+    }
+}
+
+@media (max-width:768px){
+
+    .custom-bulk-section{
+        padding: 50px 0;
+    }
+
+    .section-title{
+        padding-top: 40px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .scroll-track .content-item{
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .content-item h4{
+        font-size: 16px;
+    }
+
+    .content-item p{
+        font-size: 13px;
+    }
+
+    @keyframes infiniteScroll{
+        0%{
+            transform: translateX(0);
+        }
+
+        100%{
+            transform: translateX(calc(-300px * 3 - 60px));
+        }
+    }
+}
+
+</style>
+<!-- bulk order section end -->
 
     <!-- Services section start -->
 <section class="ep-service-section pt-120 pb-10">
@@ -648,7 +943,7 @@ max-height:240px !important;
                 </p>
 
                 <div class="mt-auto">
-                  <a href="notebooks"
+                  <a href="./shop.php"
                     class="theme-btn rounded-pill d-inline-flex align-items-center">
                     Read More
                     <i class="fas fa-chevron-right"></i>
@@ -683,7 +978,7 @@ max-height:240px !important;
                 </p>
 
                 <div class="mt-auto">
-                  <a href="registers"
+                  <a href="./shop.php"
                     class="theme-btn rounded-pill d-inline-flex align-items-center">
                     Read More
                     <i class="fas fa-chevron-right"></i>
@@ -718,7 +1013,7 @@ max-height:240px !important;
                 </p>
 
                 <div class="mt-auto">
-                  <a href="files"
+                  <a href="./shop.php"
                     class="theme-btn rounded-pill d-inline-flex align-items-center">
                     Read More
                     <i class="fas fa-chevron-right"></i>
@@ -753,7 +1048,7 @@ max-height:240px !important;
                 </p>
 
                 <div class="mt-auto">
-                  <a href="spiral-notebooks"
+                  <a href="./shop.php"
                     class="theme-btn rounded-pill d-inline-flex align-items-center">
                     Read More
                     <i class="fas fa-chevron-right"></i>
@@ -1002,12 +1297,14 @@ max-height:240px !important;
   </div>
 </section>
     <!-- Working process section end -->
-    <!-- Why choose us section start -->
-<section class="ep-why-choose-us-section-two pt-120 content">
-    <div class="container">
+<!-- Why choose us section start -->
+<section class="ep-why-choose-us-section-two pt-120 pb-80 content">
+  <div class="container">
+
     <div class="row">
-      <div class="section-title text-center pb-60">
-        <h6 class="subtitle d-inline-flex align-items-center">Why Choose Us
+      <div class="section-title text-center pb-40">
+        <h6 class="subtitle d-inline-flex align-items-center">
+          Why Choose Us
           <span class="icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
               <path fill-rule="evenodd" clip-rule="evenodd"
@@ -1019,57 +1316,299 @@ max-height:240px !important;
             </svg>
           </span>
         </h6>
-        <h2 class="title heading-two split-text right">Why Clients Choose Bharat Copy Udyog</h2>
-      </div> 
+
+        <h2 class="title heading-two split-text right">
+          Why Clients Choose Bharat Copy Udyog
+        </h2>
+      </div>
     </div>
 
-    <div class="row g-4">
-      <div class="col-lg-6 fade-up">
-        <div class="content">
+    <div class="row g-4 align-items-stretch custom-row">
 
-          <div class="content-item d-flex align-items-center bg-white rounded-20">
+      <!-- LEFT CONTENT -->
+      <div class="custom-left fade-up d-flex">
+
+        <div class="content w-100 d-flex flex-column justify-content-between">
+
+          <div class="content-item d-flex align-items-center bg-white rounded-20 mb-3">
+
             <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center">
-              <img src="assets/img/why-choose-us/wcuimg-1.png" width="80" alt="why-choose-icon">
+              <img src="assets/img/why-choose-us/wcuimg-1.png" width="70" alt="why-choose-icon">
             </div>
+
             <div class="text">
-              <h4 class="heading-four title">31+ Years of Manufacturing Excellence</h4>
-              <p>Trusted notebook manufacturer since 1995 with 31+ years of experience.</p>
+              <h4 class="heading-four title">
+                31+ Years of Manufacturing Excellence
+              </h4>
+
+              <p>
+                Trusted notebook manufacturer since 1995 with 31+ years of experience.
+              </p>
             </div>
+
+          </div>
+
+          <div class="content-item d-flex align-items-center bg-white rounded-20 mb-3">
+
+            <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center">
+              <img src="assets/img/why-choose-us/wcuimg-2.png" width="70" alt="why-choose-icon">
+            </div>
+
+            <div class="text">
+              <h4 class="heading-four title">
+                Wide Range of Notebook Solutions
+              </h4>
+
+              <p>
+                We manufacture notebooks, exam copies, files, registers, and spiral notebooks.
+              </p>
+            </div>
+
           </div>
 
           <div class="content-item d-flex align-items-center bg-white rounded-20">
-            <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center">
-              <img src="assets/img/why-choose-us/wcuimg-2.png" width="80" alt="why-choose-icon">
-            </div>
-            <div class="text">
-              <h4 class="heading-four title">Wide Range of Notebook Solutions</h4>
-              <p>We manufacture notebooks, exam copies, files, registers, and spiral notebooks.</p>
-            </div>
-          </div>
 
-          <div class="content-item d-flex align-items-center bg-white rounded-20">
             <div class="icon custom flex-shrink-0 d-flex align-items-center justify-content-center">
-              <img src="assets/img/why-choose-us/wcuimg-3.png" width="80" alt="why-choose-icon">
+              <img src="assets/img/why-choose-us/wcuimg-3.png" width="70" alt="why-choose-icon">
             </div>
+
             <div class="text">
-              <h4 class="heading-four title">Trusted by 2000+ Clients</h4>
-              <p>20,000+ notebooks daily production with delivery within 7 days.</p>
+              <h4 class="heading-four title">
+                Trusted by 2000+ Clients
+              </h4>
+
+              <p>
+                20,000+ notebooks daily production with delivery within 7 days.
+              </p>
             </div>
+
           </div>
 
         </div>
       </div>
 
-      <div class="col-lg-6 fade-up">
-        <div class="image">
-          <div class="rounded-20 overlay-shape overflow-hidden overflow-hidden reveal left">
-            <img src="assets/img/Gallery/19.png" alt="why-choose-img" class="img-fluid w-100 rounded-20">
+      <!-- RIGHT VIDEO -->
+      <div class="custom-right fade-up d-flex">
+
+        <div class="image w-100 h-100 d-flex justify-content-end">
+
+          <div class="video-wrapper">
+
+            <!-- VIDEO -->
+            <video
+              id="factoryVideo"
+              class="custom-video"
+              playsinline
+              controls
+            >
+              <source src="assets/img/Gallery/v1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
           </div>
+
         </div>
+
       </div>
+
     </div>
-     </div>
+  </div>
 </section>
+
+<style>
+
+/* SECTION */
+
+.ep-why-choose-us-section-two{
+    overflow:hidden;
+}
+
+/* ROW */
+
+.custom-row{
+    display:flex;
+    align-items:stretch;
+}
+
+/* LEFT SIDE */
+
+.custom-left{
+    width:68%;
+    flex:0 0 68%;
+    max-width:68%;
+}
+
+/* RIGHT SIDE */
+
+.custom-right{
+    width:32%;
+    flex:0 0 32%;
+    max-width:32%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+/* CONTENT */
+
+.custom-left .content{
+    height:470px;
+}
+
+/* CONTENT ITEM */
+
+.content-item{
+    padding:22px 28px;
+    flex:1;
+}
+
+/* ICON */
+
+.content-item .icon{
+    margin-right:25px;
+}
+
+/* TEXT */
+
+.content-item .text{
+    flex:1;
+}
+
+.content-item .text .title{
+    font-size:32px;
+    line-height:1.25;
+    margin-bottom:10px;
+}
+
+.content-item .text p{
+    margin-bottom:0;
+    font-size:18px;
+    line-height:1.6;
+}
+
+/* VIDEO WRAPPER */
+
+.video-wrapper{
+    width:fit-content;
+    max-width:100%;
+    height:470px;
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    background:#000;
+    margin-left:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* VIDEO */
+
+.custom-video{
+    width:auto;
+    max-width:100%;
+    height:470px;
+    object-fit:contain;
+    display:block;
+    border-radius:20px;
+    background:#000;
+}
+
+/* FULLSCREEN BUTTON */
+
+.fullscreen-btn{
+    position:absolute;
+    bottom:15px;
+    right:15px;
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background:rgba(0,0,0,0.6);
+    color:#fff;
+    font-size:22px;
+    cursor:pointer;
+    z-index:10;
+    transition:0.3s;
+}
+
+.fullscreen-btn:hover{
+    background:#a020a0;
+}
+
+/* MOBILE */
+
+@media(max-width:991px){
+
+    .custom-left,
+    .custom-right{
+        width:100%;
+        max-width:100%;
+        flex:0 0 100%;
+    }
+
+    .custom-right{
+        margin-top:20px;
+        justify-content:center;
+    }
+
+    .custom-left .content{
+        height:auto;
+    }
+
+    .content-item{
+        flex:none;
+        padding:20px;
+    }
+
+    .video-wrapper{
+        width:100%;
+        height:350px;
+    }
+
+    .custom-video{
+        width:100%;
+        height:350px;
+    }
+
+    .ep-why-choose-us-section-two{
+        padding-top:60px !important;
+        padding-bottom:60px !important;
+    }
+
+    .section-title.pb-40{
+        padding-bottom:25px !important;
+    }
+
+    .content-item .text .title{
+        font-size:24px;
+    }
+
+    .content-item .text p{
+        font-size:16px;
+    }
+}
+
+</style>
+<script>
+
+function openFullscreen() {
+
+    let video = document.getElementById("factoryVideo");
+
+    if (video.requestFullscreen) {
+        video.requestFullscreen();
+    } 
+    
+    else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen();
+    } 
+    
+    else if (video.msRequestFullscreen) {
+        video.msRequestFullscreen();
+    }
+}
+
+</script>
     <!-- Why choose us section end -->
 <!-- FAQ section start -->
 <section class="ep-faq-section pt-120">
@@ -1095,7 +1634,7 @@ max-height:240px !important;
             </div>
             <div class="faq-main secondary-bg rounded-20">
               <p>
-                Bharat Copy Udyog is a trusted notebook and stationery manufacturer offering premium quality notebooks, exam copies, files, registers, spiral notebooks, and customized stationery solutions for schools, institutions, wholesalers, and businesses.
+                <b style="color: #000; font-weight: 700;">Bharat Copy Udyog</b> is a trusted notebook and stationery manufacturer offering premium quality notebooks, exam copies, files, registers, spiral notebooks, and customized stationery solutions for schools, institutions, wholesalers, and businesses.
               </p>
               <div class="faq-body pt-40">
                 <div class="accordion" id="accordionExample">
@@ -1244,18 +1783,56 @@ max-height:240px !important;
         </div>
       </div>
 </section>
+<style>
+  @media (max-width: 767px) {
+
+  .ep-why-choose-us-section-two {
+    padding-bottom: 40px !important;
+  }
+
+  .ep-faq-section {
+    padding-top: 40px !important;
+  }
+
+}
+</style>
 <!-- FAQ section end -->
 <!---- Clients section start -->
-<section aria-labelledby="clients-heading" class="max-w-7xl" style="padding: 0;">
-  <h2
-    class="clients-heading text-center"
-    id="clients-heading"
-    style="font-size:2rem;font-weight:700;margin-top:2rem;margin-bottom:3.5rem;"
-  >
-    Trusted by Leading Clients
-  </h2>
+<section aria-labelledby="clients-heading" class="max-w-7xl"   style="
+      padding: 60px 20px;
+      margin-top: 60px;
+      background: #f8f9fc;
+      border-radius: 20px;">
+
+     <div class="row">
+      <div class="section-title text-center pb-20">
+        <h6 class="subtitle d-inline-flex align-items-center">Our Clients
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.3171 1.10946e-05L19.3136 8.18934L11.3171 16.3787L3.32062 16.3787L11.3171 8.18934L3.32062 1.14441e-05L11.3171 1.10946e-05Z"
+                fill="currentColor" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0.686401 16.3787L0.686401 8.18934L0.686401 1.14441e-05L4.68376 4.09467L8.68199 8.18934L4.68376 12.284L0.686401 16.3787Z"
+                fill="currentColor" />
+            </svg>
+          </span>
+        </h6>
+      </div> 
+      </div>
+
+    <h2 style="
+  text-align:center;
+  font-size:2.2rem;
+  font-weight:700;
+  color:#1a1a1a;
+  margin-bottom:1rem;
+   ">
+  Trusted by Leading Schools & Institutions
+   </h2>
+
   <p style="max-width:900px;margin:0 auto 2.5rem auto;text-align:center;font-size:1rem;line-height:1.8;color:#555;">
-  Over the years, Bharat Copy Udyog has earned the trust of numerous reputed schools, educational institutions, and organizations through its consistent quality, timely delivery, and durable stationery products. Our notebooks, files, registers, and customized stationery solutions are widely used by prestigious clients such as Kendriya Vidyalaya, Supreme Foundation, Sanjivani School, DAV School, Tagore Public School, Sarvodaya Kanya Vidyalaya, Swami Narayan School, and SSGITS, reflecting our commitment to excellence and long-term client satisfaction.
+  Over the years, <b style="color: #000; font-weight: 700;">Bharat Copy Udyog</b> has earned the trust of numerous reputed schools, educational institutions, and organizations through its consistent quality, timely delivery, and durable stationery products. Our notebooks, files, registers, and customized stationery solutions are widely used by prestigious clients such as Kendriya Vidyalaya, Supreme Foundation, Sanjivani School, DAV School, Tagore Public School, Sarvodaya Kanya Vidyalaya, Swami Narayan School, and SSGITS, reflecting our commitment to excellence and long-term client satisfaction.
    </p>
   <div
     class="overflow-hidden"
