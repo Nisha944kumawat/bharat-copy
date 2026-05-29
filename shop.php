@@ -469,7 +469,7 @@ $products = [
     height:36px;
     padding:0;
     border-radius:50%;
-    background:var(--bs-primary-color);
+    background:#fff;
     box-shadow:0 2px 8px rgba(0,0,0,.12);
 }
 .product-bottom > div .buy-btn img{
@@ -496,14 +496,24 @@ $products = [
     color:#fff;
 }
 .buy-btntext{
-    display:inline-flex;
-    align-items:flex-start;
+    position: relative; /* important */
+    display: inline-block;
     color:#000;
     text-decoration:none;
-    padding:2px;
     font-size:12px;
-    font-weight:600;
-    min-width:110px;
+    font-weight:bold;
+    line-height:1.2;
+    padding-right:39px; /* arrow ke liye space */
+}
+
+.buy-btntext::after{
+    content:"»»";
+    position:absolute;
+    right:15px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:16px;
+    font-weight:bold;
 }
 .no-products{
     background:#fff;
@@ -598,20 +608,21 @@ $products = [
                 <div class="product-bottom">
 
                     <span  class="buy-btntext">
-                        Buy From →
+                        Buy With <br>
+                        Confidence
                     </span>
                     
                     <div>
-                          <a href="https://www.meesho.com/BHARATCOPYUDYOG?ms=2" target="_blank" class="buy-btn">
-                          <img src="assets/img/about/a.png" alt="Amazon">
+                          <a href="https://www.amazon.in/s?k=BCU+HAWAMAHAL&dc&ref=a9_asc_1" target="_blank" class="buy-btn">
+                          <img src="assets/img/about/4.png" alt="Amazon">
                             </a>
 
                           <a href="https://www.meesho.com/BHARATCOPYUDYOG?ms=2" target="_blank" class="buy-btn">
-                           <img src="assets/img/about/f.png" alt="Flipkart">
+                           <img src="assets/img/about/6.png" alt="Flipkart">
                              </a>
 
-                           <a href="https://www.meesho.com/BHARATCOPYUDYOG?ms=2" target="_blank" class="buy-btn">
-                            <img src="assets/img/about/m.png" alt="Meesho">
+                           <a href="https://www.flipkart.com/search?q=bharat+copy+udhyog+&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&augment=false" target="_blank" class="buy-btn">
+                            <img src="assets/img/about/5.png" alt="Meesho">
                             </a>
                     </div>
 
