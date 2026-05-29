@@ -152,7 +152,7 @@
             <div class="footer-widget" style="padding-bottom: 0;">
   <div class="logo pb-2 text-center text-lg-start">
 <img src="assets/img/favicon.png"
-     class="p-2 bg-black rounded-3"
+     class="p-2  rounded-3"
      style="width: 80px;"
      alt="logo">              </div>
             <div class="text-center text-lg-start">
