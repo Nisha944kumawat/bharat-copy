@@ -588,6 +588,148 @@
       padding: 10px 0;
     }
   }
+  /* =========================
+   OTHER CERTIFICATES MOBILE
+========================= */
+
+@media (max-width:768px){
+
+    /* Heading aur paragraph ke niche gap kam */
+    .other-certificates{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .other-certificates .pb-40{
+        padding-bottom: 15px !important;
+    }
+
+    .other-certificates .cert-text{
+        margin-bottom: 10px !important;
+        padding: 0 10px;
+    }
+
+    /* Horizontal Scroll */
+    .other-certificates .row{
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 15px;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .other-certificates .row::-webkit-scrollbar{
+        display:none;
+    }
+
+    /* One card at a time */
+    .other-certificates .col-md-6,
+    .other-certificates .col-lg-3{
+        flex: 0 0 100%;
+        max-width: 100%;
+        scroll-snap-align: center;
+        padding: 0;
+    }
+
+    .certificate-card{
+        width:100%;
+    }
+
+    /* Image size mobile */
+    .certificate-img{
+        height:220px !important;
+        margin-bottom:10px;
+    }
+
+    .certificate-img img{
+        max-height:220px;
+        object-fit:contain;
+    }
+
+    .certificate-content{
+        padding-top:5px !important;
+    }
+
+    .certificate-title{
+        font-size:18px;
+        margin-bottom:8px;
+    }
+
+    .certificate-desc{
+        font-size:14px;
+        line-height:1.6;
+        padding:0 10px;
+    }
+}
+@media (max-width:768px){
+
+    .other-certificates{
+        position: relative;
+    }
+
+    /* Left Arrow */
+    .other-certificates::before{
+        content: "❮";
+        position: absolute;
+        left: 5px;
+        top: 55%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: rgba(140,15,114,0.9);
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+        animation: leftArrow 1.5s infinite;
+        pointer-events: none;
+    }
+
+    /* Right Arrow */
+    .other-certificates::after{
+        content: "❯";
+        position: absolute;
+        right: 5px;
+        top: 55%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: rgba(140,15,114,0.9);
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+        animation: rightArrow 1.5s infinite;
+        pointer-events: none;
+    }
+
+    @keyframes leftArrow{
+        0%,100%{
+            transform: translateY(-50%) translateX(0);
+        }
+        50%{
+            transform: translateY(-50%) translateX(-5px);
+        }
+    }
+
+    @keyframes rightArrow{
+        0%,100%{
+            transform: translateY(-50%) translateX(0);
+        }
+        50%{
+            transform: translateY(-50%) translateX(5px);
+        }
+    }
+}
 </style>
 
 <section class="cert-section">

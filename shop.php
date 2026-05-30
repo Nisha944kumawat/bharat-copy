@@ -546,6 +546,23 @@ $products = [
         grid-template-columns:repeat(1,minmax(0,1fr));
     }
 }
+@media(max-width:767px){
+
+    .product-content{
+        text-align:center;
+    }
+
+    .product-name,
+    .product-price{
+        text-align:center;
+    }
+
+        .product-bottom{
+        width:fit-content;
+        margin:0 auto;
+        gap:12px;
+    }
+}
 
 </style>
 
