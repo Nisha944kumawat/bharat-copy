@@ -507,13 +507,19 @@ $products = [
 }
 
 .buy-btntext::after{
-    content:"»»";
+    content:"";
     position:absolute;
     right:15px;
     top:50%;
     transform:translateY(-50%);
-    font-size:16px;
-    font-weight:bold;
+    
+    width:25px;
+    height:25px;
+
+    background-image:url("assets/img/logo/arrow.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 }
 .no-products{
     background:#fff;
@@ -561,6 +567,17 @@ $products = [
         width:fit-content;
         margin:0 auto;
         gap:12px;
+    }
+      .buy-btntext{
+        font-size:15px;      /* 12 se bada */
+        padding-right:45px;  /* arrow ke liye extra space */
+        line-height:1.3;
+    }
+
+    .buy-btntext::after{
+        width:32px;          /* 25 se bada */
+        height:32px;
+        right:5px;
     }
 }
 
